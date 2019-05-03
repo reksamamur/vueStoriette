@@ -1,0 +1,27 @@
+<b-col class="custom_col">
+          <b-list-group>
+            <b-list-group-item button class="custom_list-group-item"><font-awesome-icon :icon="['fas', 'snowboarding']" style="float:left"/> Action</b-list-group-item>
+            <b-list-group-item button class="custom_list-group-item">I am a button</b-list-group-item>
+          </b-list-group>
+        </b-col>
+        <b-col class="custom_col">
+          <b-list-group>
+            <b-list-group-item button class="custom_list-group-item">Button item</b-list-group-item>
+            <b-list-group-item button class="custom_list-group-item">I am a button</b-list-group-item>
+          </b-list-group>
+        </b-col>
+        <div class="w-100"></div>
+        <b-col class="custom_col">
+          <b-list-group>
+            <b-list-group-item button class="custom_list-group-item">Button item</b-list-group-item>
+            <b-list-group-item button class="custom_list-group-item">I am a button</b-list-group-item>
+          </b-list-group>
+        </b-col>
+        <b-col class="custom_col">
+          <b-list-group>
+            <b-list-group-item button class="custom_list-group-item">Button item</b-list-group-item>
+            <b-list-group-item button class="custom_list-group-item">I am a button</b-list-group-item>
+          </b-list-group>
+        </b-col>
+
+                <font-awesome-icon :icon="fas+categoryItem.icon" style="float:left"/>

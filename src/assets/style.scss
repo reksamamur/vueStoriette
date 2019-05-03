@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i");
+
+$colorPrimay: #f9e824;
+
+#app {
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #ffffff;
+}
+.btn_yellow {
+  margin-right: 20px;
+  background-color: $colorPrimay;
+  color: black;
+  border-color: black;
+  border-width: 1px;
+}
+.btn_yellow:hover {
+  background-color: rgb(255, 246, 150);
+  color: black;
+  border-color: rgb(255, 246, 150);
+  border-width: 1px;
+}
+.btn_yellow:active {
+  background-color: rgb(156, 144, 5) !important;
+  color: white !important;
+  border-color: rgb(156, 144, 5) !important;
+  border-width: 1px !important;
+}
+.custom_dropdown {
+  width: 450px;
+}
+.btn_outline_yellow {
+  border-color: $colorPrimay;
+  border-width: 1px;
+  background-color: white;
+  color: black;
+}
+.btn_outline_yellow:hover {
+  border-color: $colorPrimay;
+  border-width: 1px;
+  background-color: $colorPrimay;
+  color: black;
+}
+.btn_outline_yellow:active {
+  border-color: rgb(156, 144, 5) !important;
+  border-width: 1px;
+  background-color: rgb(156, 144, 5) !important;
+  color: black;
+}
+.header_tittle {
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.custom_container {
+  padding-left: 70px;
+  padding-right: 70px;
+}
+@media screen and (max-width: 800px) {
+  .custom_container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .btn_m {
+    width: 100%;
+    margin-top: 15px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .sign_div {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+.customModal {
+  border-bottom: none !important;
+}
+.img_nav {
+  height: 32px;
+}
+.bg_nav {
+  background-color: #ffffff;
+  padding-top: 1rem;
+  -webkit-box-shadow: 0px 6px 15px 1px rgba(0, 0, 0, 0.068);
+  -moz-box-shadow: 0px 6px 15px 1px rgba(0, 0, 0, 0.068);
+  box-shadow: 0px 6px 15px 1px rgba(0,0,0,0.068);
+}
+.search_scope {
+  margin-top: 30px;
+  padding-bottom: 2rem;
+}
+.btn_categories {
+  text-align: start;
+  background-color: transparent;
+  border: none;
+  color: black;
+}
+.btn_categories:hover {
+  background-color: $colorPrimay;
+  border: none;
+  color: black;
+}
+.btn_categories:active {
+  border-color: rgb(156, 144, 5) !important;
+  border-width: 1px;
+  background-color: rgb(156, 144, 5) !important;
+  color: black;
+}
+
+.btn_outline_yellow-custom1 {
+  padding: 0px !important;
+  text-align: start;
+  border-color: transparent;
+  border-width: 1px;
+  background-color: transparent;
+  color: rgb(167, 167, 167);
+}
+.btn_outline_yellow-custom1:hover {
+  border-color: transparent;
+  border-width: 1px;
+  background-color: transparent;
+  color: black;
+}
+.btn_outline_yellow-custom1:active {
+  border-color: transparent !important;
+  border-width: 1px;
+  background-color: transparent !important;
+  color: black;
+}
+.cardC {
+  width: 13rem;
+  background-color: transparent;
+  border: none;
+}
+@media screen and (max-width: 800px) {
+  .cardC {
+    width: 9rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .cardC {
+    width: 5rem;
+  }
+}
+.card-body-custom {
+  padding-top: 20px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.img-card-c {
+  height: 250px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+@media screen and (max-width: 800px) {
+  .img-card-c {
+    height: 200px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .img-card-c {
+    height: 150px;
+  }
+}
